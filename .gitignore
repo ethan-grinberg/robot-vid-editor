@@ -1,5 +1,8 @@
 vid-editor/
 models/
-data/
-images/
-src/__pycache__/process_audio.cpython-38.pyc
+
+*mp4
+*wav
+
+_pycache__/
+*.py[cod]
