@@ -21,7 +21,10 @@ class ProcessAudio:
     
     def extract_keywords(self):
         words = self.read_audio()
+
+        print("ALL WORDS:")
         print(words)
+        
         text = ""
         for word in words:
             text += word

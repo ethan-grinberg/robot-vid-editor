@@ -8,6 +8,8 @@ def main(dir, title, audio):
     audio_file = "audio/" + audio + ".wav"
     audio = ProcessAudio(audio_file, os.path.join(dir, "models"))
     words = audio.extract_keywords()
+    
+    print('KEYWORDS:')
     print(words)
 
     video = EditVideo(words, "images/", title, audio_file)
