@@ -24,7 +24,7 @@ class ProcessAudio:
 
         print("ALL WORDS:")
         print(words)
-        
+
         text = ""
         for word in words:
             text += word
@@ -37,11 +37,9 @@ class ProcessAudio:
         keyword_dict = {}
         for keyword in keywords:
             all_words = keyword.split(" ")
-            for word in all_words:
-                try:
-                    keyword_dict[word] = words[word]
-                except Exception as e:
-                    print(e)
+
+            ts = words[all_words[0]]
+            keyword_dict[keyword] = ts
 
         return keyword_dict
     
