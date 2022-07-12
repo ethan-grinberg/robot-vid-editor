@@ -19,7 +19,7 @@ joblib==1.1.0
 lxml==4.9.0
 MarkupSafe==2.0.1
 moviepy==1.0.3
-nltk==3.7
+nltk==3.6.7
 numpy==1.22.4
 oauth2client==4.1.3
 Pillow==9.1.1
