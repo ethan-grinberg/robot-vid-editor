@@ -14,7 +14,7 @@ imageio==2.16.0
 imageio-ffmpeg==0.4.7
 importlib-metadata==4.8.3
 itsdangerous==2.0.1
-Jinja2==3.1.2
+Jinja2==3.0.3
 joblib==1.1.0
 lxml==4.9.0
 MarkupSafe==2.1.1
